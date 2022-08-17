@@ -1,0 +1,44 @@
+----------------------------------------ITEMS----------------------------------------
+{
+    "data": {
+        "bill_by_cost": false,
+        "cost_allocations": [
+            {
+                "amount": "0.00",
+                "budget": 94,
+                "currency": 1
+            }
+        ],
+        "currency": 1,
+        "custom_fields": [],
+        "description": "an_item_name",
+        "packing_slips": [],
+        "shipping_amount": null,
+        "sku": "",
+        "tax_is_inclusive": false,
+        "tax": null,
+        "unit": "",
+        "vendor": 6,
+        "quantity": "1",
+        "unit_cost": "1.00"
+    },
+    "metadata": {},
+    "errors": {
+        "null": {
+            "code": "COST_ALLOCATIONS_MISMATCH",
+            "message": "Sum of cost allocations does not match the total."
+        }
+    },
+    "errors_with_codes": [
+        {
+            "field": "code",
+            "code": "UNDEFINED",
+            "message": "UNDEFINED"
+        },
+        {
+            "field": "message",
+            "code": "UNDEFINED",
+            "message": "UNDEFINED"
+        }
+    ]
+}
